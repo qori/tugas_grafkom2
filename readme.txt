@@ -1,4 +1,4 @@
-Tugas Grafkom - roket
+Tugas Grafkom - Kincir Angin
 Kelompok :
 1. Qori Nurqolbi - 10108424
 2. Nur Mufmin - 10108447
