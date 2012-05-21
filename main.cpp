@@ -475,7 +475,6 @@ void keyboard(unsigned char key, int x, int y) {
 				cloud2 -= 0.01;
 			}
 
-			
 			if (cloud3 <= -3.24) {
 				cloud3 = 6.30001;
 			} else {
@@ -488,7 +487,25 @@ void keyboard(unsigned char key, int x, int y) {
 				cloud4 -= 0.015;
 			}
 
+			
+			if (cloud5 >= 4.54501) {
+				cloud5 = -3.34501;
+			} else {
+				cloud5 -= 0.015;
+			}
 
+			if (cloud6 <= -7.64998) {
+				cloud6 = -0.45;
+			} else {
+				cloud6 -= 0.015;
+			}
+
+			if (cloud7 <= -1.62) {
+				cloud7 = 6.88499;
+			} else {
+				cloud7 -= 0.015;
+			}
+		            
 
 			glutPostRedisplay();
 
@@ -518,6 +535,24 @@ void keyboard(unsigned char key, int x, int y) {
 				cloud4 = -3.892; // ini hasil dari perhitungan di cloud4 s
 			} else {
 				cloud4 += 0.015;
+			}
+
+			if (cloud5 >= 3.34501) {
+				cloud5 = -4.54501;
+			} else {
+				cloud5 += 0.015;
+			}
+			
+			if (cloud6 >= -0.45) {
+				cloud6 = -7.64998;
+			} else {
+				cloud6 += 0.015;
+			}
+
+			if (cloud7 >= 6.88499) {
+				cloud7 = -1.62;
+			} else {
+				cloud7 += 0.015;
 			}
 
 			glutPostRedisplay();
